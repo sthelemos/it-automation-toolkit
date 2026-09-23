@@ -11,7 +11,7 @@ def test_check_connection_contains_expected_keys():
     expected_keys = {
         "host",
         "ip_address",
-        "reachable",
+        "available",
     }
 
     assert expected_keys.issubset(result.keys())
